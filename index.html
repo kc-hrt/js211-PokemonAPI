@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1 id="header">Pokemon Battle</h1> -->
+    <img class="headImg" src="https://fontmeme.com/permalink/210624/de8a8ff8a7e388a64ff2624d3869d92a.png" alt="">
+    
+    <div id="container">
+      <div id="battle-area">
+        <div id="left">
+          <h3 id="pokeName-left"></h3>
+          <img
+          id="pokeImg-left"
+          class="poke-img"
+          src="./img/placeholder.png"
+          />
+          <ul id="pokeUL-left" class"poke-list"></ul>
+        </div>
+        
+        <div id="right">
+          <h3 id="pokeName-right"></h3>
+          <img
+          id="pokeImg-right"
+          class="poke-img"
+          src="./img/placeholder.png"
+          />
+          <ul id="pokeUL-right" class"poke-list"></ul>
+        </div>
+      </div>
+      <button id="battleBtn" onclick="window.location.reload()">New Battle!</button>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

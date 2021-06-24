@@ -1,0 +1,73 @@
+@font-face {
+  font-family: PokemonSolid;
+  src: url(./PokemonSolid.ttf);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#battle-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+#left {
+  background-color: lightpink;
+  width: 45%;
+}
+
+#right {
+  background-color: lightblue;
+  width: 45%;
+}
+
+.headImg {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poke-img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  /* text-align: center; */
+}
+
+.poke-img-winner {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#battleBtn {
+  width: 250px;
+  margin: 50px auto;
+}
+
+#winnerPokemon {
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: PokemonSolid;
+  font-size: 3rem;
+  text-align: center;
+}
